@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 1.5;
+	font-family: 'Playfair Display', serif;
+}
+/* *************************header section css**************** */
+.header{
+	padding: 70px 0 100px;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.life li{
+	display: inline-block;
+	margin: 0 30px;
+	
+}
+.life li a{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #626262;
+	padding: 0 30px;
+}
+.life li:first-child{
+	margin-left: 0;	
+}
+.life li:last-child{
+	margin-right: 0;	
+}
+.life li a:first-child{	
+	padding-left: 0;
+}
+.life li a:last-child{
+	padding-right: 0;	
+}
+.heroimage{
+	height: 100vh;
+	background-image: url(../images/minimo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* ***********************post css start********************** */
+.post{
+	padding-bottom: 125px;
+}
+.heading-prime{
+	font-size: 14px;
+	font-weight: lighter;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin-bottom:30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.subheading-second{
+	font-weight: reguler;
+	color: #626262;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.para{
+	font-size: 14px;
+	font-weight: reguler;
+	color: #626262
+}
+.leavecomment{
+	font-size: 14px;
+	font-weight: lighter;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	display:inline-block;
+}
+.thumbnail{
+	margin-top:100px;
+}
+.thumbimg{
+	/* width: 400px; */
+	height: 280px;
+	margin: 30px 0;
+}
+.thumbimg img{
+	height: 100%;
+	width:100%;
+	object-fit: cover;
+}
+/* **********************signup css start****************** */
+.signup{
+	background-color: #f0f0f0; 
+    padding: 75px 0;
+}
+.signupheading{
+	text-align: center;
+	font-size: 30px;
+	font-weight: reguler;
+	color: #333333;
+	margin-bottom: 85px;
+}
+.form-group{
+	height: 40px;
+	overflow: hidden;
+	position: relative;
+}
+.form-group .email{
+	font-size: 14px;
+	color: #626262;
+	height: 100%;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 10px;
+	display: inline-block;
+	background-color: transparent;
+	border-bottom: 2px solid;
+	/* position: relative; */
+}
+.submitbutton{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 14px;
+	color: #626262;
+	transform:rotate(45deg);
+}
+.btn{
+	padding: 20px 35px;
+	font-size: 30px;
+	color: #626262;
+	background-color: #fff;
+	border:1px solid #626262;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.btn:hover, .btn:active, .btn:focus{
+	background-color: #626262;
+	color: #fff;
+}
+/* ***********************footer css start********************* */
+.footer{
+	background-color: #f0f0f0;
+	padding: 40px 0;
+}
+.footerlink li{
+	display: inline-block;
+}
+.footerlink li a{
+	font-size: 14px;
+	color: #000;
+	text-transform: capitalize;
+	padding:10px;
+	
+}

@@ -1,0 +1,74 @@
+.container{
+	width: 1080px;
+	margin: 0 auto;
+}
+a:link, a:visited{
+	text-decoration:none;
+}
+	
+ul{
+	list-style:none;
+}
+.row, 
+.row::after, 
+.row::before{
+	clear: both;
+	display: table;
+	width: 100%;
+}
+div[class^="col"] {
+	float: left;
+	padding:0 15px;
+}
+.col-off-set1{
+	margin-left: calc(100% * 1 / 12);
+}
+.col-off-set4{
+	margin-left: calc(100% * 4 / 12);
+}
+.col12{
+	width: 100%;
+}
+.col10{
+	width: calc(100% * 10 / 12);
+}	
+.col9{
+	width: 75%;
+}
+.col8{
+	width: calc(100% * 8 / 12);
+}
+.col6{
+	width: 50%;
+}
+.col4{
+	width: calc(100% * 4 / 12);
+}
+.col3{
+	width: 25%;
+}
+.col2{
+	width: calc(100% * 2 / 12);
+}
+/*********************** margin class css**************** */
+.mb-70{
+	margin-bottom: 70px;
+}
+.mb-50{
+	margin-bottom: 50px;
+}
+.mb-90{
+	margin-bottom: 90px;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+.mb-130{
+	margin-bottom: 135px;
+}
+.pr-30{
+	padding-right: 30px;
+}
+.pl-30{
+	padding-left: 30px;
+}
